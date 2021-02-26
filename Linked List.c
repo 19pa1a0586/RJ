@@ -28,8 +28,8 @@ void Create()
 		
 		for(int i = 1; i < n; i++)
 		{
-			temp = (struct Node *)malloc(sizeof(struct Node));
-			printf("Enter the Node %d : ",i+1);
+		    temp = (struct Node *)malloc(sizeof(struct Node));
+		    printf("Enter the Node %d : ",i+1);
 		    scanf("%d",&temp->data);
 		    temp->next = NULL;
 		    last->next = temp;
