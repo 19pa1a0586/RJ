@@ -30,10 +30,10 @@ void Create()
 		{
 			temp = (struct Node *)malloc(sizeof(struct Node));
 			printf("Enter the Node %d : ",i+1);
-		    scanf("%d",&temp->data);
-		    temp->next = NULL;
-		    last->next = temp;
-		    last = temp; //last = last->next; ----> This also gives the same output
+		        scanf("%d",&temp->data);
+		        temp->next = NULL;
+		        last->next = temp;
+		        last = temp; //last = last->next; ----> This also gives the same output
 		}
 	}
 }
@@ -207,7 +207,7 @@ void InsertPos1()
 		scanf("%d",&n);
 		if(n==0)
 		{
-			p->next = first;
+		    p->next = first;
 		    first = p;
 		}
 		else if(n > 0)
@@ -312,12 +312,12 @@ void BigDelete()
 //	else
 //	{
 //		printf("Enter the Position where you want to delete : ");
-//	    scanf("%d",&n);
-//	    if(n==0)
-//	    {
-//	    	first = first->next;
-//		    p->next = NULL;
-//		    free(p);
+//	        scanf("%d",&n);
+//	        if(n==0)
+//	        {
+//	    	       first = first->next;
+//		       p->next = NULL;
+//		       free(p);
 //		}
 //		else if(n > 0)
 //		{
