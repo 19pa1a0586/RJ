@@ -102,9 +102,9 @@ void InsertBig()
 		else
 		{
 			p->prev = NULL;
-		    p->next = first;
-		    first->prev = p;
-		    first = p;
+		        p->next = first;
+		        first->prev = p;
+		        first = p;
 		}
 	}
 }
