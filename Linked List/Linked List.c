@@ -28,8 +28,8 @@ void Create()
 		
 		for(int i = 1; i < n; i++)
 		{
-			temp = (struct Node *)malloc(sizeof(struct Node));
-			printf("Enter the Node %d : ",i+1);
+		    temp = (struct Node *)malloc(sizeof(struct Node));
+		    printf("Enter the Node %d : ",i+1);
 		    scanf("%d",&temp->data);
 		    temp->next = NULL;
 		    last->next = temp;
@@ -214,7 +214,7 @@ void InsertPos1()
 		scanf("%d",&n);
 		if(n==0)
 		{
-			p->next = first;
+		    p->next = first;
 		    first = p;
 		}
 		else if(n > 0)
