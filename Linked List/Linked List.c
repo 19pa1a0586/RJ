@@ -526,4 +526,3 @@ int main()
 //Array elements after deleting the end element.Elements are : 4 9 8
 //Array elements after deleting the element at a position.Enter the Position where you want to remove : 1
 //Elements are : 9 8
-
