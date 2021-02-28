@@ -95,9 +95,9 @@ void InsertBig()
 		else
 		{
 			p->prev = NULL;
-		    p->next = first;
-		    first->prev = p;
-		    first = p;
+		        p->next = first;
+		        first->prev = p;
+		        first = p;
 		}
 	}
 }
@@ -127,7 +127,7 @@ void InsertPos(struct Node *p, int ind, int val)
 				p = p->next;
 			}
 			q->next = p->next;
-		    q->prev = p;
+		        q->prev = p;
 			p->next = q;
 		}
 	}
@@ -246,7 +246,7 @@ int main()
 	InsertEnd();
 	Display();
 	printf("Length of the list after Insertion at end is : %d\n",Count());
-    printf("\nEnter the element you want Insert : ");
+        printf("\nEnter the element you want Insert : ");
 	scanf("%d",&val);
 	printf("Enter the Position where you want to Insert : "); // It links the newnode to the entered numbers next position. for ex-->> enter 4 then the element(newnode) is inserted at 5 as it links next to 4.
 	scanf("%d",&ind);
