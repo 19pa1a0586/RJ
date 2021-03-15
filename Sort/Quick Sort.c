@@ -60,9 +60,16 @@ void Display(int A[],int n)
 
 int main()
 {
-	int A[] = {9,5,2,4,8,5,3,2,9,4};
-	QuickSort(A,0,10);
-	Display(A,10);
+        int n;
+        printf("Enter the size of the array : ");
+        scanf("%d",&n);
+        int A[n];
+        printf("Enter elements : ");
+        for(int i = 0; i < n; i++){
+    	     scanf("%d",&A[i]);
+	}
+	QuickSort(A,0,n);
+	Display(A,n);
 	
 	return 0;
 }
