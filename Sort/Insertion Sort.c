@@ -28,7 +28,17 @@ void Display(int A[],int n)
 
 int main()
 {
-	int A[] = {9,2,4,8,5};
+	int n;
+	
+        printf("Enter the size of the array : ");
+        scanf("%d",&n);
+	
+        int arr[n];
+	
+        printf("Enter elements : ");
+        for(int i = 0; i < n; i++){
+    	     scanf("%d",&arr[i]);
+        }
 	
 	InsertionSort(A,5);
 	
