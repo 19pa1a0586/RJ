@@ -40,9 +40,9 @@ int main()
     	     scanf("%d",&arr[i]);
         }
 	
-	InsertionSort(A,5);
+	InsertionSort(A,n);
 	
-	Display(A,5);
+	Display(A,n);
 	
 	return 0;
 }
