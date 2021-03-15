@@ -59,11 +59,18 @@ void Display(int A[],int n)
 
 int main()
 {
-	int A[] = {9,5,8,4,2};
+	int n;
+        printf("Enter the size of the array : ");
+        scanf("%d",&n);
+        int A[n];
+        printf("Enter elements : ");
+        for(int i = 0; i < n; i++){
+        	scanf("%d",&A[i]);
+	}
 	
-	MergeSort(A,0,4);
+	MergeSort(A,0,n);
 	
-	Display(A,5);
+	Display(A,n);
 	
 	return 0;
 }
